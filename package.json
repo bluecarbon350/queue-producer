@@ -1,0 +1,15 @@
+{
+  "name": "mock-data-source",
+  "description": "Simulates the behavior of various marine devices and sends mock telemetry stream to MQTT gateway",
+  "version": "0.1.0",
+  "author": "Davis Marques <dmarques@bluecarbon.cc>",
+  "dependencies": {
+    "async-mqtt": "^2.6.2",
+    "mqtt": "^4.3.7",
+    "standard": "^17.0.0",
+    "yargs": "^17.5.1"
+  },
+  "scripts": {
+    "test": ""
+  }
+}
