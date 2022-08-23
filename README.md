@@ -1,6 +1,7 @@
-# Mock Data Sources
+# Queue Producer
 
-Simulates AUP, boat, drone, etc. device data streams.
+Simulates AUP, boat, drone, etc. device data streams and sends mock
+data messages to the device gateway.
 
 # Setup
 

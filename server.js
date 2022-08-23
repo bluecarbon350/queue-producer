@@ -30,6 +30,16 @@ yargs(hideBin(process.argv))
     default: 5672,
     type: "number",
   })
+  .option("protocol", {
+    describe: "Message protocol",
+    default: "amqp",
+    type: "string"
+  })
+  .option("queue", {
+    describe: "Queue name",
+    default: "data",
+    type: "string"
+  })
   .option("rate", {
     describe: "Average frequency of messages (ms)",
     default: 1000,
