@@ -15,11 +15,7 @@ Display help:
 
     node ./server.js --help
 
-Run the simulator with the default options:
+Run the simulator with configuration:
 
-    node ./server.js simulate
-
-Run the simulator with a specific data collection endpoint:
-
-    node ./server.js simulate --gateway gateway.example.com
+    node ./server.js run --config ./path/to/config.json
 
